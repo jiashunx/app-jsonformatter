@@ -12,13 +12,13 @@
          <children>
             <SplitPane dividerPositions="0.5" maxHeight="616.0" maxWidth="1024.0" minHeight="616.0" minWidth="1024.0" prefHeight="616.0" prefWidth="1024.0">
                <items>
-                  <TextArea maxHeight="616.0" maxWidth="512.0" minHeight="616.0" minWidth="512.0" prefHeight="616.0" prefWidth="512.0" />
-                  <TextArea maxHeight="616.0" maxWidth="512.0" minHeight="616.0" minWidth="512.0" prefHeight="616.0" prefWidth="512.0" />
+                  <TextArea fx:id="jsonResource" maxHeight="616.0" maxWidth="512.0" minHeight="616.0" minWidth="512.0" prefHeight="616.0" prefWidth="512.0" />
+                  <TextArea fx:id="jsonTarget" maxHeight="616.0" maxWidth="512.0" minHeight="616.0" minWidth="512.0" prefHeight="616.0" prefWidth="512.0" />
                </items>
             </SplitPane>
             <SplitPane maxHeight="50.0" maxWidth="1024.0" minHeight="50.0" minWidth="1024.0" orientation="VERTICAL" prefHeight="50.0" prefWidth="1024.0">
                <items>
-                  <Button maxHeight="50.0" maxWidth="1024.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="1024.0" text="Button" />
+                  <Button onAction="#format" maxHeight="50.0" maxWidth="1024.0" mnemonicParsing="false" prefHeight="50.0" prefWidth="1024.0" text="Button" />
                </items>
             </SplitPane>
          </children>
